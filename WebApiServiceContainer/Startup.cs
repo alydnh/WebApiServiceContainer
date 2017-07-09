@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Autofac;
 
-namespace WebApiServiceContainer
+namespace Alydnh.WebApiServiceContainer
 {
     public class Startup
     {
@@ -36,8 +37,12 @@ namespace WebApiServiceContainer
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
             app.UseMvc();
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            
         }
     }
 }

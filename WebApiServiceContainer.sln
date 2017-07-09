@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiServiceContainer", "WebApiServiceContainer\WebApiServiceContainer.csproj", "{980483BC-CC8C-48D9-A01C-A34F34316A3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alydnh.WebApiServiceContainer", "WebApiServiceContainer\Alydnh.WebApiServiceContainer.csproj", "{980483BC-CC8C-48D9-A01C-A34F34316A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alydnh.WebApi.Controllers", "Alydnh.WebApi.Controllers\Alydnh.WebApi.Controllers.csproj", "{FDF55D9D-40B0-4F86-A85F-E8734B113CE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{980483BC-CC8C-48D9-A01C-A34F34316A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{980483BC-CC8C-48D9-A01C-A34F34316A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{980483BC-CC8C-48D9-A01C-A34F34316A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF55D9D-40B0-4F86-A85F-E8734B113CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF55D9D-40B0-4F86-A85F-E8734B113CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF55D9D-40B0-4F86-A85F-E8734B113CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF55D9D-40B0-4F86-A85F-E8734B113CE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
